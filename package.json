@@ -1,0 +1,16 @@
+{
+	"dependencies": {
+		"axios": "*",
+		"deepai": "*",
+		"redis": "4.3.1",
+		"openai": "^3.1.0",
+		"aws-sdk": "2.1218.0",
+		"@aws-sdk/client-dynamodb": "*",
+		"@aws-sdk/client-rekognition": "*",
+        "@aws-sdk/client-sqs": "*",
+        "@aws-sdk/client-s3": "*"
+	},
+	"scripts":{
+		"start": "NODE_ENV=development node wrapper.js"
+	}
+}
